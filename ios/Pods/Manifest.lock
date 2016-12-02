@@ -1,4 +1,12 @@
 PODS:
+  - CodePush (1.16.0):
+    - CodePush/Core (= 1.16.0)
+    - CodePush/SSZipArchive (= 1.16.0)
+    - React
+  - CodePush/Core (1.16.0):
+    - React
+  - CodePush/SSZipArchive (1.16.0):
+    - React
   - Firebase/Core (3.9.0):
     - FirebaseAnalytics (= 3.5.1)
     - FirebaseCore (= 3.4.4)
@@ -29,12 +37,21 @@ PODS:
     - GoogleToolboxForMac/Defines (= 2.1.0)
   - GoogleToolboxForMac/NSData+zlib (2.1.0):
     - GoogleToolboxForMac/Defines (= 2.1.0)
+  - React (0.11.0):
+    - React/Core (= 0.11.0)
+  - React/Core (0.11.0)
 
 DEPENDENCIES:
+  - CodePush (from `../node_modules/react-native-code-push`)
   - Firebase/Core
   - Firebase/Messaging
 
+EXTERNAL SOURCES:
+  CodePush:
+    :path: ../node_modules/react-native-code-push
+
 SPEC CHECKSUMS:
+  CodePush: b12da3295aa9dda5370cd2e92a58bc32656a4b84
   Firebase: ff77ffb77b317c3720fef57a60e9335cebf962e6
   FirebaseAnalytics: 6e58fc9b397664369ac7617fb0ba93fab6ba7b5b
   FirebaseCore: d0ed25f27b6f9158eccc439f1be6f92e81207e28
@@ -43,7 +60,8 @@ SPEC CHECKSUMS:
   GoogleInterchangeUtilities: d5bc4d88d5b661ab72f9d70c58d02ca8c27ad1f7
   GoogleSymbolUtilities: 631ee17048aa5e9ab133470d768ea997a5ef9b96
   GoogleToolboxForMac: 2b2596cbb7186865e98cadf2b1e262d851c2b168
+  React: ab1a2e21deb34965c38328d5ec40cc7d12c6050a
 
-PODFILE CHECKSUM: 5d5394e9954b8409cff2ccdfa2736ea882026433
+PODFILE CHECKSUM: 72690e65d329ea5bceabf5bab1b1cdcf341ad07f
 
 COCOAPODS: 1.1.1

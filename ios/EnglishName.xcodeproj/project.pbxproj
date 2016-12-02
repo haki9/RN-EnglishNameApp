@@ -25,6 +25,8 @@
 		7DA9D3A0F39CA88305189583 /* libPods-EnglishName.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E1FE31EE3DB482AA4B725B7 /* libPods-EnglishName.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ABF50F316D031BA1966121E4 /* libPods-EnglishNameTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E342112CD426CB98054533 /* libPods-EnglishNameTests.a */; };
+		C964E8961DF15DF500E32B12 /* libCodePush.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CF017A1DF14D0A00BBB14E /* libCodePush.a */; };
+		C9BB0DAD1DF16CDD0062F65A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD6200768C948799658B859 /* libz.tbd */; };
 		C9CF012B1DF1374F00BBB14E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9CF012A1DF1374F00BBB14E /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -155,6 +157,13 @@
 			remoteGlobalIDString = 2D2A28131D9B038B00D4039D;
 			remoteInfo = "React-tvOS";
 		};
+		C9CF01791DF14D0A00BBB14E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA59896D34D94885B58ADE14 /* CodePush.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = CodePush;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -168,6 +177,7 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* EnglishNameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnglishNameTests.m; sourceTree = "<group>"; };
 		04E342112CD426CB98054533 /* libPods-EnglishNameTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EnglishNameTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		100E92DAA98000D82E4714E0 /* Pods-EnglishName.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnglishName.staging.xcconfig"; path = "Pods/Target Support Files/Pods-EnglishName/Pods-EnglishName.staging.xcconfig"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* EnglishName.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnglishName.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -181,11 +191,14 @@
 		1E1FE31EE3DB482AA4B725B7 /* libPods-EnglishName.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EnglishName.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CC4871244EF73AA83B71DB4 /* Pods-EnglishName.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnglishName.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EnglishName/Pods-EnglishName.debug.xcconfig"; sourceTree = "<group>"; };
 		435E3384BD14BF708F6CB44C /* Pods-EnglishNameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnglishNameTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EnglishNameTests/Pods-EnglishNameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6AD6200768C948799658B859 /* libz.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		88D875395D7074E330E678DA /* Pods-EnglishName.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnglishName.release.xcconfig"; path = "Pods/Target Support Files/Pods-EnglishName/Pods-EnglishName.release.xcconfig"; sourceTree = "<group>"; };
+		BF56BA0FBA6CDF1268C7E038 /* Pods-EnglishNameTests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnglishNameTests.staging.xcconfig"; path = "Pods/Target Support Files/Pods-EnglishNameTests/Pods-EnglishNameTests.staging.xcconfig"; sourceTree = "<group>"; };
 		C9CF01291DEFCF7A00BBB14E /* EnglishName.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = EnglishName.entitlements; path = EnglishName/EnglishName.entitlements; sourceTree = "<group>"; };
 		C9CF012A1DF1374F00BBB14E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DA59896D34D94885B58ADE14 /* CodePush.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = CodePush.xcodeproj; path = "../node_modules/react-native-code-push/ios/CodePush.xcodeproj"; sourceTree = "<group>"; };
 		FC954C4C48E9AF82CD692C4C /* Pods-EnglishNameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnglishNameTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EnglishNameTests/Pods-EnglishNameTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -203,6 +216,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9BB0DAD1DF16CDD0062F65A /* libz.tbd in Frameworks */,
+				C964E8961DF15DF500E32B12 /* libCodePush.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
 				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
@@ -327,6 +342,7 @@
 			children = (
 				1E1FE31EE3DB482AA4B725B7 /* libPods-EnglishName.a */,
 				04E342112CD426CB98054533 /* libPods-EnglishNameTests.a */,
+				6AD6200768C948799658B859 /* libz.tbd */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -353,6 +369,7 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
+				DA59896D34D94885B58ADE14 /* CodePush.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -396,8 +413,18 @@
 				88D875395D7074E330E678DA /* Pods-EnglishName.release.xcconfig */,
 				435E3384BD14BF708F6CB44C /* Pods-EnglishNameTests.debug.xcconfig */,
 				FC954C4C48E9AF82CD692C4C /* Pods-EnglishNameTests.release.xcconfig */,
+				100E92DAA98000D82E4714E0 /* Pods-EnglishName.staging.xcconfig */,
+				BF56BA0FBA6CDF1268C7E038 /* Pods-EnglishNameTests.staging.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		C9CF01761DF14D0A00BBB14E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9CF017A1DF14D0A00BBB14E /* libCodePush.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -451,7 +478,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 610;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -480,6 +507,10 @@
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
+				{
+					ProductGroup = C9CF01761DF14D0A00BBB14E /* Products */;
+					ProjectRef = DA59896D34D94885B58ADE14 /* CodePush.xcodeproj */;
+				},
 				{
 					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
 					ProjectRef = 00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */;
@@ -647,6 +678,13 @@
 			fileType = archive.ar;
 			path = "libReact-tvOS.a";
 			remoteRef = C9CF01271DEFCCB600BBB14E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C9CF017A1DF14D0A00BBB14E /* libCodePush.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCodePush.a;
+			remoteRef = C9CF01791DF14D0A00BBB14E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -831,6 +869,10 @@
 				INFOPLIST_FILE = EnglishNameTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -850,6 +892,10 @@
 				INFOPLIST_FILE = EnglishNameTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -873,6 +919,7 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
+					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
 				);
 				INFOPLIST_FILE = EnglishName/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -900,6 +947,7 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
+					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
 				);
 				INFOPLIST_FILE = EnglishName/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -932,6 +980,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODEPUSH_KEY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -953,6 +1002,7 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
+					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -978,6 +1028,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODEPUSH_KEY = "Pk7YkB05Fz-KtHqdAuas-t9n5Dtf4J3_oZ9Mz";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -993,6 +1044,7 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
+					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -1000,6 +1052,99 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		C9F51D361DF152220021BA37 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODEPUSH_KEY = zGfWxCiIIPGJprHeqpOSNZmrLkU94J3_oZ9Mz;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Staging;
+		};
+		C9F51D371DF152220021BA37 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 100E92DAA98000D82E4714E0 /* Pods-EnglishName.staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EnglishName/EnglishName.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9DL5ZXTEMD;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
+				);
+				INFOPLIST_FILE = EnglishName/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hakisaman.EnglishName;
+				PRODUCT_NAME = EnglishName;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Staging;
+		};
+		C9F51D381DF152220021BA37 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF56BA0FBA6CDF1268C7E038 /* Pods-EnglishNameTests.staging.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = EnglishNameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnglishName.app/EnglishName";
+			};
+			name = Staging;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1009,6 +1154,7 @@
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
 				00E356F71AD99517003FC87E /* Release */,
+				C9F51D381DF152220021BA37 /* Staging */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1018,6 +1164,7 @@
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
 				13B07F951A680F5B00A75B9A /* Release */,
+				C9F51D371DF152220021BA37 /* Staging */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1027,6 +1174,7 @@
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
 				83CBBA211A601CBA00E9B192 /* Release */,
+				C9F51D361DF152220021BA37 /* Staging */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

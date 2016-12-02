@@ -13,5 +13,5 @@ target 'EnglishName' do
   end
   pod 'Firebase/Core'
   pod 'Firebase/Messaging'
-
+  pod 'CodePush', :path => ‘../node_modules/react-native-code-push'
 end

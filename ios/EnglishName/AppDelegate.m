@@ -8,6 +8,7 @@
  */
 
 #import "AppDelegate.h"
+#import "CodePush.h"
 
 #import "RCTBundleURLProvider.h"
 #import "RCTRootView.h"
@@ -19,6 +20,7 @@
 @import Firebase;
 @import FirebaseInstanceID;
 @import FirebaseMessaging;
+
 
 // Implement UNUserNotificationCenterDelegate to receive display notification via APNS for devices
 // running iOS 10 and above. Implement FIRMessagingDelegate to receive data message via FCM for
@@ -39,7 +41,12 @@
 {
   NSURL *jsCodeLocation;
 
-  jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index.ios" fallbackResource:nil];
+  
+#ifdef DEBUG
+    jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index.ios" fallbackResource:nil];
+#else
+    jsCodeLocation = [CodePush bundleURL];
+#endif
 
   RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
                                                       moduleName:@"EnglishName"
